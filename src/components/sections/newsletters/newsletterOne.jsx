@@ -47,7 +47,7 @@ const NewsletterOne = () => {
                             <SectionName className={'text-muted-foreground'}>Get Connected</SectionName>
                             <Title size={"3.5xl"}>Education That Sparks Imaginat Nurturing Curiosity Inspire</Title>
                             <div className="relative lg:mt-10 mt-5">
-                                <form name="GetConnected" method="POST" data-netlify="true" className="relative flex">
+                                <form name="GetConnected" method="POST" action="/" data-netlify="true" className="relative flex">
                                     <input 
                                         type="email" 
                                         name="email" 
