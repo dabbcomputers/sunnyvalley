@@ -34,7 +34,7 @@ const HomeOne = () => {
         <Teams />
         <AgeOne />
         <Testimonial />
-        <BlogsOne />
+        { /* <BlogsOne /> */ }
         <NewsletterOne />
       </main>
       <ScrollRestoration/>

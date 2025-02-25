@@ -14,7 +14,6 @@ const FooterOne = () => {
                 <div className="grid lg:grid-cols-[370px_auto_auto] sm:grid-cols-2 grid-cols-1 justify-between gap-7.5">
                     <SlideUp delay={2}>
                         <Logo />
-                        <p className="pt-4">Yes, there are many notable ma corporate the a  od businesses Informati worldwide</p>
                         <SocalIcons prentClass={"gap-5 pt-7.5"} className={"w-9 h-9 bg-warm text-muted-foreground hover:text-cream-foreground hover:bg-green"} />
                     </SlideUp>
 

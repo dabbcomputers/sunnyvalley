@@ -21,8 +21,10 @@ const NewsletterOne = () => {
                             <SectionName className={'text-muted-foreground'}>Get Connected</SectionName>
                             <Title size={"3.5xl"}>Education That Sparks Imaginat Nurturing Curiosity Inspire</Title>
                             <div className="relative lg:mt-10 mt-5">
+                                <form name="GetConnected" netlify>
                                 <Input type={"email"} placeholder="Enter Your Email" />
                                 <Button className="absolute right-[10px] top-1/2 -translate-y-1/2 text-cream-foreground">Submit  <FaArrowRight /></Button>
+                                </form>
                             </div>
                         </div>
                     </div>
