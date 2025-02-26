@@ -23,10 +23,16 @@ export const menuList = [
         label: "Policy",
         dropDownMenu: false
     },
+    {
+        id: 5,
+        path: "/faq",
+        label: "Faq",
+        dropDownMenu: false
+    },
     /*{
         id: 5,
-        path: "#",
-        label: "Pages",
+        path: "/faq",
+        label: "Faq",
         dropDownMenu: [
             {
                 id: 3,
