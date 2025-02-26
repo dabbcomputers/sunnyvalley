@@ -16,12 +16,12 @@ const NewsletterTwo = () => {
                         <div className="lg:max-w-[573px] max-w-[400px]">
                             <SectionName className={"text-muted-foreground"}>Stay With Us</SectionName>
                             <Title size={"3.5xl"} className={"mt-2.5 max-w-[410px]"}>The path to success starts with education</Title>
-                            <SectionDescription className={"mt-5"}>Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet massa turpis sit proin metus volutpat.</SectionDescription>
-                            <div className="mt-9">
+                            <SectionDescription className={"mt-5"}>At Sunny Valley Early Learning Center, we believe that a strong foundation in early education paves the way for lifelong success. Our nurturing environment encourages creativity, curiosity, and confidence, ensuring that every child thrives through play-based learning and structured activities. Join us in shaping a brighter future for your little one!.</SectionDescription>
+                            {/*<div className="mt-9">
                                 <Button variant="pill" className="bg-primary border-primary hover:text-primary-foreground" asChild>
                                     <Link to={"/about-us"} className="btn-rounded-full">Read More</Link>
                                 </Button>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="relative">
                             <img src={stay_thumb} alt="tree-img" />

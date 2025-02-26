@@ -1,20 +1,9 @@
 export const menuList = [
     {
         id: 1,
-        path: "#",
+        path: "/",
         label: "Home",
-        dropDownMenu: [
-            {
-                id: 1,
-                path: "/",
-                label: "Home-1",
-            },
-            {
-                id: 2,
-                path: "/home-2",
-                label: "Home-2",
-            },
-        ]
+        dropDownMenu: false
     },
     {
         id: 2,
@@ -24,53 +13,21 @@ export const menuList = [
     },
     {
         id: 3,
-        path: "#",
+        path: "/services",
         label: "Services",
-        dropDownMenu: [
-            {
-                id: 1,
-                path: "/services",
-                label: "Services",
-            },
-            {
-                id: 2,
-                path: "/service-details",
-                label: "Service Details",
-            },
-        ]
+        dropDownMenu: false
     },
     {
         id: 4,
-        path: "#",
-        label: "Blog",
-        dropDownMenu: [
-            {
-                id: 1,
-                path: "/blog",
-                label: "Blog",
-            },
-            {
-                id: 2,
-                path: "/blog-details",
-                label: "Blog Details",
-            },
-        ]
+        path: "/blog",
+        label: "Policy",
+        dropDownMenu: false
     },
-    {
+    /*{
         id: 5,
         path: "#",
         label: "Pages",
         dropDownMenu: [
-            {
-                id: 1,
-                path: "/about-us",
-                label: "About Us",
-            },
-            {
-                id: 2,
-                path: "/services",
-                label: "Service Details",
-            },
             {
                 id: 3,
                 path: "/faq",
@@ -87,7 +44,7 @@ export const menuList = [
                 label: "Contact Us",
             },
         ]
-    },
+    },*/
     {
         id: 6,
         path: "/contact-us",

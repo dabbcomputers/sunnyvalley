@@ -11,7 +11,7 @@ const TeamCard = ({src, name, position}) => {
                 </div>
                 <div className="pt-7.5">
                     <h4 className="leading-[141%]"><Link to="#" className="text-2xl font-medium">{name}</Link></h4>
-                    <p className="pt-1">Marketing Coordinator</p>
+                    <p className="pt-1">{position}</p>
                     <SocalIcons prentClass={"gap-5 pt-7.5"} className={"w-9 h-9 bg-warm text-muted-foreground hover:text-cream-foreground"}/>
                 </div>
             </div>

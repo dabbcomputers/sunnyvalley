@@ -16,17 +16,21 @@ const Blog = () => {
         <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
       </Helmet>
       <main>
-        <PageTitle pageName={"Blog"} breadcrumbCurrent={"Blog"} />
+        <PageTitle pageName={"Policy"} breadcrumbCurrent={"Policy"} />
         <div className="lg:pt-15 pt-10">
           <div className='container'>
             <div className=" grid xl:grid-cols-[850px_auto] lg:grid-cols-[700px_auto] grid-cols-1 gap-7.5">
               <div className='flex flex-col lg:gap-[60px] gap-10'>
                 {
-                  blogDataThree.map(({ author, blog_desc, date, id, src, title }) => <CardThree key={id} src={src} title={title} />)
+                  // blogDataThree.map(({ author, blog_desc, date, id, src, title }) => <CardThree key={id} src={src} title={title} />)
+                  
                 }
-                <Pagination />
+                <iframe class="google-container" src="https://docs.google.com/document/d/1WHbWLqe1T1dDS98xzZez_VTrNKLjXVOKYtURpjQ0zqA/preview?usp=sharing&embedded=true" 
+                  width="100%" height="800px">
+                </iframe>
+                {/* <Pagination /> */}
               </div>
-              <Sidebar />
+              {/* <Sidebar /> */}
             </div>
           </div>
         </div>

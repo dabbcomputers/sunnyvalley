@@ -6,25 +6,25 @@ export const testimonialData = [
     {
         id:1,
         src:user_1,
-        name:"Shakib Al Hasan",
+        name:"Test User",
         position:"Marketing Manager",
-        review:"Their product exceeded his my routi  expectations. The the quality and attention to detail a the a most outstanding and it has become an essential most a education the man who can do ",
+        review:"Teachers are amazingly helpful, and extremely focused.",
         rating:5
     },
     {
         id:2,
         src:user_2,
-        name:"Liam",
+        name:"Test User",
         position:"Web Developer",
-        review:"Their product exceeded his my routi  expectations. The the quality and attention to detail a the a most outstanding and it has become an essential most a education the man who can do ",
+        review:"Great enviroment, my kids love to attend school.",
         rating:4
     },
     {
         id:3,
         src:user_3,
-        name:"Oliver",
+        name:"Test User",
         position:"Digital Marketer",
-        review:"Their product exceeded his my routi  expectations. The the quality and attention to detail a the a most outstanding and it has become an essential most a education the man who can do ",
+        review:"Amazing educators",
         rating:5
     }
 

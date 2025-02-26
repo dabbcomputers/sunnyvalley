@@ -29,16 +29,16 @@ const AgeOne = () => {
 
                         <div className="relative flex justify-center flex-wrap sm:flex-nowrap lg:justify-between md:gap-7.5 sm:gap-4 gap-3">
                             <div className="mt-[110px] flex flex-col items-end md:gap-7.5 sm:gap-4 gap-3">
-                                <BigCard One={"1-2"} />
-                                <SmallCard className={"bg-primary"} age={"9-11"} />
+                                <BigCard AgeOne={"3-6"} />
+                                {/*<SmallCard className={"bg-primary"} age={"focused"} />*/}
                             </div>
                             <div className="flex flex-col md:gap-7.5 sm:gap-4 gap-3">
-                                <SmallCard className={"bg-secondary"} age={"3-5"} />
-                                <SmallCard className={"bg-destructive"} age={"6-8"} />
-                                <SmallCard className={"bg-green"} age={"16-18"} />
+                                <SmallCard className={"bg-secondary"} age={"3-4"} />
+                                <SmallCard className={"bg-destructive"} age={"4-5"} />
+                                {/*<SmallCard className={"bg-green"} age={"16-18"} />*/}
                             </div>
                             <div className="self-center ">
-                                <SmallCard className={"bg-primary"} age={"12-15"} />
+                                
                             </div>
                         </div>
 

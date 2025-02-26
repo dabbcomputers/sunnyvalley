@@ -18,8 +18,7 @@ const ContactUs = () => {
         <PageTitle pageName={"Contact Us"} breadcrumbCurrent={"Contact Us"} />
         <ContactAddress />
         <GoogleMap />
-        <ContactForm />
-        <NewsletterTwo />
+        { /*<ContactForm /> */}
       </main>
       <ScrollRestoration/>
     </>
