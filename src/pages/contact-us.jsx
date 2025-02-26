@@ -11,8 +11,8 @@ const ContactUs = () => {
   return (
     <>
       <Helmet>
-        <title>Ascent - Chindcare & Kids School React.js Template  || Contact-Us</title>
-        <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
+        <title>Sunny Valley Early Learning Center  || Contact-Us</title>
+        <meta name="description" content="Sunny Valley Early Learning (Childcare) Center Chilliwack" />
       </Helmet>
       <main>
         <PageTitle pageName={"Contact Us"} breadcrumbCurrent={"Contact Us"} />
