@@ -20,20 +20,21 @@ const ContactForm = () => {
         const handleChange = (e) => {
             setFormData({ ...formData, [e.target.name]: e.target.value });
         };
-    
+        const encode = (data) => {
+            return Object.keys(data)
+                .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+                .join("&");
+        };
         const handleSubmit = (e) => {
             e.preventDefault();
     
-            const form = e.target;
-            const data = new FormData(form);
-    
             fetch("/", {
                 method: "POST",
-                body: new URLSearchParams(data).toString(),
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: encode({ "form-name": "contact", ...formData }),
             })
             .then(() => alert("Form submitted successfully!"))
-            .catch((error) => alert("Form submission failed"));
+            .catch((error) => alert("Form submission failed: " + error));
     
             setFormData({ name: "", email: "", address: "", message: "" });
         };
