@@ -2,7 +2,7 @@ export const faqData = [
     {
         id:"one",
         question:"What age groups do you accept??",
-        ans:"We welcome children aged 1 to 5 years old, offering age-appropriate learning experiences for each developmental stage."
+        ans:"We welcome children aged 6 months to 5 years old, offering age-appropriate learning experiences for each developmental stage."
     },
     {
         id:"two",

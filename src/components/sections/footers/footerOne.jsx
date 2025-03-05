@@ -21,8 +21,8 @@ const FooterOne = () => {
                         <h3 className="text-2xl font-semibold">Pages</h3>
                         <ul className="flex flex-col gap-[15px] pt-5 min-w-[203px]">
                             <li><Link to="/about-us" className="text-[#686868] transition-all duration-500 hover:ml-1 hover:text-primary-foreground">About Us</Link></li>
-                            <li><Link to="/services" className="text-[#686868] transition-all duration-500 hover:ml-1 hover:text-primary-foreground">Latest Service</Link></li>
-                            <li><Link to="/blog" className="text-[#686868] transition-all duration-500 hover:ml-1 hover:text-primary-foreground">Latest Blog And News</Link></li>
+                            <li><Link to="/services" className="text-[#686868] transition-all duration-500 hover:ml-1 hover:text-primary-foreground">Service</Link></li>
+                            <li><Link to="/policy" className="text-[#686868] transition-all duration-500 hover:ml-1 hover:text-primary-foreground">Policy</Link></li>
                             <li><Link to="/faq" className="text-[#686868] transition-all duration-500 hover:ml-1 hover:text-primary-foreground">FAQ</Link></li>
                             <li><Link to="#" className="text-[#686868] transition-all duration-500 hover:ml-1 hover:text-primary-foreground">Our Creative Team Member</Link></li>
                         </ul>
@@ -33,7 +33,7 @@ const FooterOne = () => {
                         <ul className="flex flex-col gap-[15px] pt-5">
                             <li>
                                 <p className="text-[#686868] flex items-center gap-4">
-                                    <span className="w-11 h-11 rounded-full border border-gray-200 flex justify-center items-center text-green-foreground"><FaLocationDot /></span> <span className="max-w-[168px]">202 - 7592 Vedder Road, Chilliwack</span>
+                                    <span className="w-11 h-11 rounded-full border border-gray-200 flex justify-center items-center text-green-foreground"><FaLocationDot /></span> <span className="max-w-[168px]">201, 202, 203 - 7592 Vedder Road, Chilliwack</span>
                                 </p>
                             </li>
                             <li>

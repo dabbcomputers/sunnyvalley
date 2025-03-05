@@ -40,10 +40,6 @@ const ServiceCardTwo = ({ icon, service_name, service_details }) => {
                         <Link to="/service-details" className="font-semibold lg:text-2xl text-xl group-hover/card:text-green-foreground transition-all duration-500">{service_name}</Link>
                     </h4>
                     <p className="lg:mt-4 mt-3">{service_details}</p>
-                    <Link to="/service-details" className="inline-flex items-center gap-2.5 lg:mt-7.5 mt-4 group/btn">
-                        <span className="group-hover/btn:text-green-foreground transition-all duration-500">Read More</span>
-                        <span className="group-hover/btn:ml-1 group-hover/btn:text-green-foreground transition-all duration-500"> <FaArrowRight /> </span>
-                    </Link>
                 </div>
             </div>
         </SlideUp>

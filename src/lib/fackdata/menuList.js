@@ -19,7 +19,7 @@ export const menuList = [
     },
     {
         id: 4,
-        path: "/blog",
+        path: "/policy",
         label: "Policy",
         dropDownMenu: false
     },

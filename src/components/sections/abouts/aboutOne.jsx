@@ -32,7 +32,7 @@ const AboutOne = ({ gridClass, isAboutpage }) => {
                                             <img src={customer} alt="customer" />
                                         </div>
                                         <div>
-                                            <h6 className="text-cream-foreground font-bold text-2xl">500+</h6>
+                                            <h6 className="text-cream-foreground font-bold text-2xl">100+</h6>
                                             <p className="text-cream-foreground">Satisfied parents</p>
                                         </div>
                                     </div>
@@ -41,11 +41,11 @@ const AboutOne = ({ gridClass, isAboutpage }) => {
                             <div className="flex sm:flex-col gap-8">
                                 <div className="bg-warm max-w-[212px] rounded-[11px] px-5 pt-[22px] pb-6 flex flex-col items-center justify-center text-center">
                                     <img src={icreement} alt="icreement" />
-                                    <h6 className="text-xl font-bold">Academy</h6>
+                                    <h6 className="text-xl font-bold">Playbase</h6>
                                     <p>Early Learning Hub</p>
                                 </div>
                                 <div className="bg-background max-w-[212px] rounded-[11px] px-5 pt-[22px] pb-6 flex flex-col justify-center drop-shadow-[0px_4.8px_24.4px_rgba(19,16,34,0.10)]">
-                                    <h6 className="text-[32px] font-bold text-secondary-foreground">3+</h6>
+                                    <h6 className="text-[32px] font-bold text-secondary-foreground">2+</h6>
                                     <p>Locations to serve</p>
                                 </div>
                             </div>

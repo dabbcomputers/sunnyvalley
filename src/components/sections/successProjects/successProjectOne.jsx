@@ -9,6 +9,8 @@ import Blocks from '@/assets/icons/blocks'
 import Chalkboard from '@/assets/icons/chalkboard'
 import CardOne from './cardOne'
 import SectionDescription from '@/components/ui/sectionDescription'
+import BabyBody from '@/assets/icons/baby-body'
+import CapDoll from '@/assets/icons/cap-doll'
 
 const SuccessProjectOne = () => {
     return (
@@ -27,9 +29,10 @@ const SuccessProjectOne = () => {
 
                     <div className="grid sm:grid-cols-2 grid-cols-1 gap-7.5">
                         <CardOne icon={<Kindergarden />} color={"bg-primary"} number={"100%"} title={"Safe Environment"} />
-                        <CardOne icon={<Book />} color={"bg-destructive"} number={"4:1"} title={"Child Teacher Ratio"} />
-                        <CardOne icon={<Blocks />} color={"bg-green"} number={"5"} title={"Highly Experienced Educators"} />
-                        <CardOne icon={<Chalkboard />} color={"bg-secondary"} number={"100%"} title={"Parents' Satishfaction"} />
+                        <CardOne icon={<Book />} color={"bg-destructive"} number={"4:1"} title={"Teacher ration (6M-3Y)"} />
+                        <CardOne icon={<Book />} color={"bg-destructive"} number={"8:1"} title={"Teacher ration (3Y-5Y)"} />
+                        <CardOne icon={<Blocks />} color={"bg-green"} number={"4"} title={"Highly Experienced Educators"} />
+                        <CardOne icon={<CapDoll />} color={"bg-secondary"} number={"100%"} title={"Parents' Satishfaction"} />
 
                     </div>
 

@@ -32,7 +32,7 @@ const DesktopSidebar = ({ active, setActive }) => {
                                 <FaEnvelope className='text-primary-foreground' /> <a href="" className="ml-2.5">info@sunnyvalleylearning.ca</a>
                             </li>
                             <li className='flex items-center'>
-                                <FaLocationDot className='text-primary-foreground' /> <span className="ml-2.5">202 - 7592 Vedder Road, Chilliwack</span>
+                                <FaLocationDot className='text-primary-foreground' /> <span className="ml-2.5">201, 202, 203 - 7592 Vedder Road, Chilliwack</span>
                             </li>
                         </ul>
                     </div>

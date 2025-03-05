@@ -17,7 +17,7 @@ const TopHeader = () => {
                                 <FaEnvelope /> <Link to={"#"}>info@sunnyvalleylearning.ca</Link>
                             </li>
                             <li className='text-cream-foreground flex items-center gap-4'>
-                                <FaLocationDot /> <span>202 - 7592 Vedder Road, Chilliwack</span>
+                                <FaLocationDot /> <span>201, 202, 203 - 7592 Vedder Road, Chilliwack</span>
                             </li>
                         </ul>
                     </div>

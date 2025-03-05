@@ -13,7 +13,7 @@ const ContactAddress = () => {
                                 <span className="text-cream-foreground text-[28px]"><FaLocationDot /> </span>
                             </div>
                             <h5 className="font-bold text-xl mt-5 pb-2.5">Location</h5>
-                            <p>202 - 7592 Vedder Road, Chilliwack</p>
+                            <p>201, 202, 203 - 7592 Vedder Road, Chilliwack</p>
                         </div>
                     </SlideUp>
 

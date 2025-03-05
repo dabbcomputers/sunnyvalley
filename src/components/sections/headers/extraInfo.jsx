@@ -15,7 +15,7 @@ const ExtraInfo = () => {
                         <FaEnvelope className="text-primary-foreground" /> <a href="" className="ml-2.5">info@sunnyvalleylearning.com</a>
                     </li>
                     <li className='flex items-center gap-2'>
-                        <FaLocationDot className="text-primary-foreground" /> <span className="ml-2.5">202 - 7592 Vedder Road, Chilliwack</span>
+                        <FaLocationDot className="text-primary-foreground" /> <span className="ml-2.5">201, 202, 203 - 7592 Vedder Road, Chilliwack</span>
                     </li>
                 </ul>
             </div>

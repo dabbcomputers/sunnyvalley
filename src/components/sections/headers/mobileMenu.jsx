@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { FaPlus, FaXmark } from "react-icons/fa6";
-import logo from "@/assets/images/logo.png"
+import logo from "@/assets/images/logo4040.png"
 import { menuList } from '@/lib/fackdata/menuList'
 import ExtraInfo from './extraInfo';
 
@@ -21,7 +21,7 @@ const MobileMenu = ({ isMobleMenuActive, setIsMobleMenuActive }) => {
                 <div className="flex justify-between items-center">
                     <a href="" className="flex items-center gap-1">
                         <img src={logo} alt="logo" />
-                        <span className="font-bold text-3xl ">Ascent</span>
+                        <span className="font-bold text-3xl ">Sunny Valley Learning</span>
                     </a>
                     <div className="bg-primary w-10 h-10 text-cream-foreground flex items-center justify-center rounded-[4px] left-4" onClick={() => setIsMobleMenuActive(false)}>
                         <FaXmark className="text-xl" />
