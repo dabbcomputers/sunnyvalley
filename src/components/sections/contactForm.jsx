@@ -69,9 +69,9 @@ const ContactForm = () => {
                         <div>
                             <div className="bg-background shadow-[0px_5px_60px_0px_rgba(0,0,0,0.05)] rounded-[10px] lg:p-10 p-5">
                                 <h3 className="text-[28px] font-bold leading-[148%] font-nunito">Send a message</h3>
-                                <form name="contact1" method="POST" data-netlify="true" className="mt-7">
+                                <form name="contact" method="POST" data-netlify="true" className="mt-7">
                                     {/* Hidden Input for Netlify Form Detection */}
-                                    <input type="hidden" name="form-name" value="contact1" />
+                                    <input type="hidden" name="form-name" value="contact" />
                                     <div className="grid sm:grid-cols-2 grid-cols-1 gap-7.5">
                                         <div className="relative">
                                             <Input type={"text"} placeholder={"Your Name"} id="name" value={formData.name} onChange={handleChange} required className={"text-[#686868] placeholder:[#686868] border-[#F2F2F2] lg:py-[15px] px-5"} />
