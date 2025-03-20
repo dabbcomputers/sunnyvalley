@@ -1,5 +1,5 @@
 import React from 'react'
-import about_bg_2 from "@/assets/images/about/mission.jpg"
+import about_bg_2 from "@/assets/images/about/mission.png"
 import about_bg_3 from "@/assets/images/about/goal.png"
 import { Button } from '@/components/ui/button'
 import { Link } from 'react-router-dom'
