@@ -33,7 +33,7 @@ const ContactAddress = () => {
                                 <span className="text-cream-foreground text-[28px]"><FaPhone /> </span>
                             </div>
                             <h5 className="font-bold text-xl mt-5 pb-2.5">Contact</h5>
-                            <p><a href="tel:+1-604-846-7890">+1-604-846-7890</a> </p>
+                            <p><a href="tel:+1-236-522-3000">+1-236-522-3000</a> </p>
                         </div>
                     </SlideUp>
 

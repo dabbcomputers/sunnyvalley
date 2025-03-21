@@ -11,7 +11,7 @@ const TopHeader = () => {
                     <div>
                         <ul className="flex gap-7.5">
                             <li className='text-cream-foreground flex items-center gap-4'>
-                                <FaPhone /> <Link to="tel:tel:+1-604-846-7890">604-846-7890</Link>
+                                <FaPhone /> <Link to="tel:tel:+1-236-522-3000">236-522-3000</Link>
                             </li>
                             <li className='text-cream-foreground flex items-center gap-4'>
                                 <FaEnvelope /> <Link to={"#"}>sunnyvalleyelc@gmail.com</Link>
