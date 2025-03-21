@@ -9,7 +9,7 @@ const ExtraInfo = () => {
                 <h4 className="text-xl font-bold text-[#385469]">Contact Info</h4>
                 <ul className="mt-5 flex flex-col gap-[15px]">
                     <li className='flex items-center gap-2'>
-                        <FaPhone className="text-primary-foreground" /> <a href="" className="ml-2.5">604-846-7890</a>
+                        <FaPhone className="text-primary-foreground" /> <a href="tel:+1-604-846-7890" className="ml-2.5">604-846-7890</a>
                     </li>
                     <li className='flex items-center gap-2'>
                         <FaEnvelope className="text-primary-foreground" /> <a href="" className="ml-2.5">info@sunnyvalleylearning.com</a>
